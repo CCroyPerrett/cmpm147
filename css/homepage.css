@@ -18,3 +18,13 @@
 .two-column>*:nth-child(2) {
   flex: 1;
 }
+
+body{
+  background-color: plum
+}
+
+img{
+  border-style: dashed ;
+  font-family:'Times New Roman', Times, serif ;
+}
+
