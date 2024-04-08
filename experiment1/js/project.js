@@ -13,9 +13,6 @@ const fillers = {
   trait: ["shy", "confident", "kind", "manical", "studious", "psycho", "egotistical", "eccentric", "lazy", "mysterious", "cruel", "adventerous", "creative", "optimistic", "depressed", "confident", "flirty", "intelligant", "obnoxious", "sleepy", "scared", "creepy", "energetic", "silly", "mean", "boisterous"],
   emotion: ["dismayed", "distressed", "confused", "overjoyed", "saddened", "frothing"],
   reward: ["the key to the city", "my wallet", "my hand in marrage", "an ice cream", "a really cool hat", "19 dollar fortnite card", "a new car", "the big cheese", "a real life pikachu", "a nintendo switch", "scp-999"]
-  
-  
-  
 };
 
 /*const template = `$adventurer, heed my $message!
