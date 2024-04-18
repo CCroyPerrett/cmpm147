@@ -32,8 +32,8 @@
 	<main id="content">
 		<section>
 
-			<h1>Experiment X - Subject/Topic</h1>
-
+			<h1>Experiment 2 - Life Impressions</h1>
+			<img class="murder-photo" src="https://cdn.glitch.global/ffd3bbd4-1563-4f84-8d06-8914868eab99/spacescape.jpg?v=1713409045199" height="50%" width="50%">
 			<div class="minor-section">
 				<div id="canvas-container">
 					<!-- canvas will be added here -->
@@ -45,17 +45,27 @@
 
 			<div class="minor-section">
 				<h2>Description</h2>
-				<p>What are you trying to acomplish with this experiment?</p>
+				<p>In this experiment, I set out to create a randomly generated scene, reminiscent to viewing the vast cosmos in the distant reaches
+					of space. This is meant to be my first foray into the creation of randomly generated scenes.
+				</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Technical</h2>
-				<p>Describe in detail what you did technically and how it works?</p>
+				<p>Firstly, the background & stars are generated. To avoid unappealing clumping of the stars, there is a chance for 1 star to spawn
+					in somewhere within any segment of the screen, seperated into 20/20 squares from the scene view. Secondly, a number of planets are generated,
+					although the number and colors are predetermined, their size & positioning are randomly generated (with a sine floating mechanic)
+					to allow it to appear "floating". The comets are then drawn, each one giving a "starting position" and moving downwards diagonally from there,
+					returning after a period of time. Finally, the ground layers are geneated in a manner similar to the mountains in the example.
+				</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Reflection</h2>
-				<p>Each person that worked on the code should reflect on the process, the difficulties, and the successes of the experiment.</p>
+				<p>Although it was said that this assignment would be easier than the previous, I did not find this to be the case. While the old assignment 
+					was a simple text generator, this one required quite a bit of trial and error to set the generation and movement as it should be. particularly, the comets
+				(the fastest form of movement), were particularly vexing, as they tended to deform over time due to a bug on my part, which has now
+					been fixed.</p>
 			</div>
 
 		</section>
